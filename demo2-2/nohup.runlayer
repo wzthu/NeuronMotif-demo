@@ -1,0 +1,1637 @@
+mkdir: cannot create directory ‘layer5’: File exists
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/zwei/software/anaconda3/envs/NeuronMotif/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From /home/zwei/software/anaconda3/envs/NeuronMotif/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+2021-09-15 15:50:27.031584: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/zwei/software/java/jdk1.8.0_301/jre/lib/amd64/server:/home/zwei/software/pcre/pcre2-10.37/lib:
+2021-09-15 15:50:27.031622: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: UNKNOWN ERROR (303)
+2021-09-15 15:50:27.031643: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (mu01): /proc/driver/nvidia/version does not exist
+2021-09-15 15:50:27.031890: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2021-09-15 15:50:27.040187: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2400000000 Hz
+2021-09-15 15:50:27.196169: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x564fedf6e040 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-09-15 15:50:27.196220: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /home/zwei/software/anaconda3/envs/NeuronMotif/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+layer5
+kernel0
+finish1
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+finish2
+finish3
+finish30
+(3044,)
+(3044, 82, 4)
+(1,)
+finish31
+(6318,)
+(6318, 82, 4)
+(1,)
+finish32
+(3321,)
+(3321, 82, 4)
+(1,)
+finish33
+(3554,)
+(3554, 82, 4)
+(1,)
+finish34
+(6755,)
+(6755, 82, 4)
+(1,)
+finish35
+(5181,)
+(5181, 82, 4)
+(1,)
+finish36
+(7901,)
+(7901, 82, 4)
+(1,)
+finish37
+(6797,)
+(6797, 82, 4)
+(1,)
+finish38
+(3387,)
+(3387, 82, 4)
+(1,)
+finish39
+(4596,)
+(4596, 82, 4)
+(1,)
+finish310
+(4881,)
+(4881, 82, 4)
+(1,)
+finish311
+(6888,)
+(6888, 82, 4)
+(1,)
+finish312
+(7931,)
+(7931, 82, 4)
+(1,)
+finish313
+(6065,)
+(6065, 82, 4)
+(1,)
+finish314
+(8640,)
+(8640, 82, 4)
+(1,)
+finish315
+(10150,)
+(10150, 82, 4)
+(1,)
+finish30
+(257,)
+(257, 82, 4)
+test0
+test2
+(1,)
+finish31
+(306,)
+(306, 82, 4)
+test0
+test2
+(1,)
+finish32
+(458,)
+(458, 82, 4)
+test0
+test2
+(1,)
+finish33
+(335,)
+(335, 82, 4)
+test0
+test2
+(1,)
+finish34
+(95,)
+(95, 82, 4)
+test0
+test2
+(1,)
+finish35
+(171,)
+(171, 82, 4)
+test0
+test2
+(1,)
+finish36
+(140,)
+(140, 82, 4)
+test0
+test2
+(1,)
+finish37
+(125,)
+(125, 82, 4)
+test0
+test2
+(1,)
+finish38
+(175,)
+(175, 82, 4)
+test0
+test2
+(1,)
+finish39
+(166,)
+(166, 82, 4)
+test0
+test2
+(1,)
+finish310
+(249,)
+(249, 82, 4)
+test0
+test2
+(1,)
+finish311
+(255,)
+(255, 82, 4)
+test0
+test2
+(1,)
+finish312
+(66,)
+(66, 82, 4)
+test0
+test2
+(1,)
+finish313
+(101,)
+(101, 82, 4)
+test0
+test2
+(1,)
+finish314
+(105,)
+(105, 82, 4)
+test0
+test2
+(1,)
+finish315
+(40,)
+(40, 82, 4)
+test0
+test2
+(1,)
+finish30
+(160,)
+(160, 82, 4)
+test0
+test2
+(1,)
+finish31
+(175,)
+(175, 82, 4)
+test0
+test2
+(1,)
+finish32
+(263,)
+(263, 82, 4)
+test0
+test2
+(1,)
+finish33
+(371,)
+(371, 82, 4)
+test0
+test2
+(1,)
+finish34
+(151,)
+(151, 82, 4)
+test0
+test2
+(1,)
+finish35
+(65,)
+(65, 82, 4)
+test0
+test2
+(1,)
+finish36
+(68,)
+(68, 82, 4)
+test0
+test2
+(1,)
+finish37
+(108,)
+(108, 82, 4)
+test0
+test2
+(1,)
+finish38
+(263,)
+(263, 82, 4)
+test0
+test2
+(1,)
+finish39
+(93,)
+(93, 82, 4)
+test0
+test2
+(1,)
+finish310
+(996,)
+(996, 82, 4)
+test0
+test2
+(1,)
+finish311
+(1050,)
+(1050, 82, 4)
+test0
+test2
+(1,)
+finish312
+(373,)
+(373, 82, 4)
+test0
+test2
+(1,)
+finish313
+(332,)
+(332, 82, 4)
+test0
+test2
+(1,)
+finish314
+(895,)
+(895, 82, 4)
+test0
+test2
+(1,)
+finish315
+(955,)
+(955, 82, 4)
+test0
+test2
+(1,)
+finish30
+(138,)
+(138, 82, 4)
+test0
+test2
+(1,)
+finish31
+(82,)
+(82, 82, 4)
+test0
+test2
+(1,)
+finish32
+(67,)
+(67, 82, 4)
+test0
+test2
+(1,)
+finish33
+(43,)
+(43, 82, 4)
+test0
+test2
+(1,)
+finish34
+(114,)
+(114, 82, 4)
+test0
+test2
+(1,)
+finish35
+(113,)
+(113, 82, 4)
+test0
+test2
+(1,)
+finish36
+(104,)
+(104, 82, 4)
+test0
+test2
+(1,)
+finish37
+(216,)
+(216, 82, 4)
+test0
+test2
+(1,)
+finish38
+(261,)
+(261, 82, 4)
+test0
+test2
+(1,)
+finish39
+(352,)
+(352, 82, 4)
+test0
+test2
+(1,)
+finish310
+(399,)
+(399, 82, 4)
+test0
+test2
+(1,)
+finish311
+(314,)
+(314, 82, 4)
+test0
+test2
+(1,)
+finish312
+(229,)
+(229, 82, 4)
+test0
+test2
+(1,)
+finish313
+(138,)
+(138, 82, 4)
+test0
+test2
+(1,)
+finish314
+(300,)
+(300, 82, 4)
+test0
+test2
+(1,)
+finish315
+(451,)
+(451, 82, 4)
+test0
+test2
+(1,)
+finish30
+(143,)
+(143, 82, 4)
+test0
+test2
+(1,)
+finish31
+(294,)
+(294, 82, 4)
+test0
+test2
+(1,)
+finish32
+(202,)
+(202, 82, 4)
+test0
+test2
+(1,)
+finish33
+(285,)
+(285, 82, 4)
+test0
+test2
+(1,)
+finish34
+(154,)
+(154, 82, 4)
+test0
+test2
+(1,)
+finish35
+(531,)
+(531, 82, 4)
+test0
+test2
+(1,)
+finish36
+(286,)
+(286, 82, 4)
+test0
+test2
+(1,)
+finish37
+(732,)
+(732, 82, 4)
+test0
+test2
+(1,)
+finish38
+(115,)
+(115, 82, 4)
+test0
+test2
+(1,)
+finish39
+(121,)
+(121, 82, 4)
+test0
+test2
+(1,)
+finish310
+(142,)
+(142, 82, 4)
+test0
+test2
+(1,)
+finish311
+(323,)
+(323, 82, 4)
+test0
+test2
+(1,)
+finish312
+(23,)
+(23, 82, 4)
+test0
+test2
+(1,)
+finish313
+(48,)
+(48, 82, 4)
+test0
+test2
+(1,)
+finish314
+(95,)
+(95, 82, 4)
+test0
+test2
+(1,)
+finish315
+(60,)
+(60, 82, 4)
+test0
+test2
+(1,)
+finish30
+(536,)
+(536, 82, 4)
+test0
+test2
+(1,)
+finish31
+(372,)
+(372, 82, 4)
+test0
+test2
+(1,)
+finish32
+(268,)
+(268, 82, 4)
+test0
+test2
+(1,)
+finish33
+(377,)
+(377, 82, 4)
+test0
+test2
+(1,)
+finish34
+(943,)
+(943, 82, 4)
+test0
+test2
+(1,)
+finish35
+(649,)
+(649, 82, 4)
+test0
+test2
+(1,)
+finish36
+(468,)
+(468, 82, 4)
+test0
+test2
+(1,)
+finish37
+(673,)
+(673, 82, 4)
+test0
+test2
+(1,)
+finish38
+(139,)
+(139, 82, 4)
+test0
+test2
+(1,)
+finish39
+(435,)
+(435, 82, 4)
+test0
+test2
+(1,)
+finish310
+(185,)
+(185, 82, 4)
+test0
+test2
+(1,)
+finish311
+(306,)
+(306, 82, 4)
+test0
+test2
+(1,)
+finish312
+(227,)
+(227, 82, 4)
+test0
+test2
+(1,)
+finish313
+(331,)
+(331, 82, 4)
+test0
+test2
+(1,)
+finish314
+(396,)
+(396, 82, 4)
+test0
+test2
+(1,)
+finish315
+(450,)
+(450, 82, 4)
+test0
+test2
+(1,)
+finish30
+(506,)
+(506, 82, 4)
+test0
+test2
+(1,)
+finish31
+(708,)
+(708, 82, 4)
+test0
+test2
+(1,)
+finish32
+(460,)
+(460, 82, 4)
+test0
+test2
+(1,)
+finish33
+(374,)
+(374, 82, 4)
+test0
+test2
+(1,)
+finish34
+(513,)
+(513, 82, 4)
+test0
+test2
+(1,)
+finish35
+(357,)
+(357, 82, 4)
+test0
+test2
+(1,)
+finish36
+(201,)
+(201, 82, 4)
+test0
+test2
+(1,)
+finish37
+(266,)
+(266, 82, 4)
+test0
+test2
+(1,)
+finish38
+(312,)
+(312, 82, 4)
+test0
+test2
+(1,)
+finish39
+(574,)
+(574, 82, 4)
+test0
+test2
+(1,)
+finish310
+(244,)
+(244, 82, 4)
+test0
+test2
+(1,)
+finish311
+(388,)
+(388, 82, 4)
+test0
+test2
+(1,)
+finish312
+(75,)
+(75, 82, 4)
+test0
+test2
+(1,)
+finish313
+(77,)
+(77, 82, 4)
+test0
+test2
+(1,)
+finish314
+(40,)
+(40, 82, 4)
+test0
+test2
+(1,)
+finish315
+(86,)
+(86, 82, 4)
+test0
+test2
+(1,)
+finish30
+(437,)
+(437, 82, 4)
+test0
+test2
+(1,)
+finish31
+(478,)
+(478, 82, 4)
+test0
+test2
+(1,)
+finish32
+(548,)
+(548, 82, 4)
+test0
+test2
+(1,)
+finish33
+(427,)
+(427, 82, 4)
+test0
+test2
+(1,)
+finish34
+(183,)
+(183, 82, 4)
+test0
+test2
+(1,)
+finish35
+(245,)
+(245, 82, 4)
+test0
+test2
+(1,)
+finish36
+(125,)
+(125, 82, 4)
+test0
+test2
+(1,)
+finish37
+(134,)
+(134, 82, 4)
+test0
+test2
+(1,)
+finish38
+(430,)
+(430, 82, 4)
+test0
+test2
+(1,)
+finish39
+(351,)
+(351, 82, 4)
+test0
+test2
+(1,)
+finish310
+(429,)
+(429, 82, 4)
+test0
+test2
+(1,)
+finish311
+(383,)
+(383, 82, 4)
+test0
+test2
+(1,)
+finish312
+(900,)
+(900, 82, 4)
+test0
+test2
+(1,)
+finish313
+(738,)
+(738, 82, 4)
+test0
+test2
+(1,)
+finish314
+(846,)
+(846, 82, 4)
+test0
+test2
+(1,)
+finish315
+(1247,)
+(1247, 82, 4)
+test0
+test2
+(1,)
+finish30
+(177,)
+(177, 82, 4)
+test0
+test2
+(1,)
+finish31
+(163,)
+(163, 82, 4)
+test0
+test2
+(1,)
+finish32
+(296,)
+(296, 82, 4)
+test0
+test2
+(1,)
+finish33
+(250,)
+(250, 82, 4)
+test0
+test2
+(1,)
+finish34
+(954,)
+(954, 82, 4)
+test0
+test2
+(1,)
+finish35
+(1200,)
+(1200, 82, 4)
+test0
+test2
+(1,)
+finish36
+(893,)
+(893, 82, 4)
+test0
+test2
+(1,)
+finish37
+(693,)
+(693, 82, 4)
+test0
+test2
+(1,)
+finish38
+(347,)
+(347, 82, 4)
+test0
+test2
+(1,)
+finish39
+(682,)
+(682, 82, 4)
+test0
+test2
+(1,)
+finish310
+(307,)
+(307, 82, 4)
+test0
+test2
+(1,)
+finish311
+(390,)
+(390, 82, 4)
+test0
+test2
+(1,)
+finish312
+(68,)
+(68, 82, 4)
+test0
+test2
+(1,)
+finish313
+(56,)
+(56, 82, 4)
+test0
+test2
+(1,)
+finish314
+(143,)
+(143, 82, 4)
+test0
+test2
+(1,)
+finish315
+(178,)
+(178, 82, 4)
+test0
+test2
+(1,)
+finish30
+(97,)
+(97, 82, 4)
+test0
+test2
+(1,)
+finish31
+(51,)
+(51, 82, 4)
+test0
+test2
+(1,)
+finish32
+(132,)
+(132, 82, 4)
+test0
+test2
+(1,)
+finish33
+(166,)
+(166, 82, 4)
+test0
+test2
+(1,)
+finish34
+(240,)
+(240, 82, 4)
+test0
+test2
+(1,)
+finish35
+(277,)
+(277, 82, 4)
+test0
+test2
+(1,)
+finish36
+(271,)
+(271, 82, 4)
+test0
+test2
+(1,)
+finish37
+(408,)
+(408, 82, 4)
+test0
+test2
+(1,)
+finish38
+(338,)
+(338, 82, 4)
+test0
+test2
+(1,)
+finish39
+(318,)
+(318, 82, 4)
+test0
+test2
+(1,)
+finish310
+(288,)
+(288, 82, 4)
+test0
+test2
+(1,)
+finish311
+(466,)
+(466, 82, 4)
+test0
+test2
+(1,)
+finish312
+(63,)
+(63, 82, 4)
+test0
+test2
+(1,)
+finish313
+(92,)
+(92, 82, 4)
+test0
+test2
+(1,)
+finish314
+(84,)
+(84, 82, 4)
+test0
+test2
+(1,)
+finish315
+(96,)
+(96, 82, 4)
+test0
+test2
+(1,)
+finish30
+(465,)
+(465, 82, 4)
+test0
+test2
+(1,)
+finish31
+(600,)
+(600, 82, 4)
+test0
+test2
+(1,)
+finish32
+(421,)
+(421, 82, 4)
+test0
+test2
+(1,)
+finish33
+(634,)
+(634, 82, 4)
+test0
+test2
+(1,)
+finish34
+(72,)
+(72, 82, 4)
+test0
+test2
+(1,)
+finish35
+(58,)
+(58, 82, 4)
+test0
+test2
+(1,)
+finish36
+(191,)
+(191, 82, 4)
+test0
+test2
+(1,)
+finish37
+(141,)
+(141, 82, 4)
+test0
+test2
+(1,)
+finish38
+(423,)
+(423, 82, 4)
+test0
+test2
+(1,)
+finish39
+(371,)
+(371, 82, 4)
+test0
+test2
+(1,)
+finish310
+(376,)
+(376, 82, 4)
+test0
+test2
+(1,)
+finish311
+(328,)
+(328, 82, 4)
+test0
+test2
+(1,)
+finish312
+(246,)
+(246, 82, 4)
+test0
+test2
+(1,)
+finish313
+(116,)
+(116, 82, 4)
+test0
+test2
+(1,)
+finish314
+(75,)
+(75, 82, 4)
+test0
+test2
+(1,)
+finish315
+(79,)
+(79, 82, 4)
+test0
+test2
+(1,)
+finish30
+(190,)
+(190, 82, 4)
+test0
+test2
+(1,)
+finish31
+(280,)
+(280, 82, 4)
+test0
+test2
+(1,)
+finish32
+(303,)
+(303, 82, 4)
+test0
+test2
+(1,)
+finish33
+(232,)
+(232, 82, 4)
+test0
+test2
+(1,)
+finish34
+(365,)
+(365, 82, 4)
+test0
+test2
+(1,)
+finish35
+(423,)
+(423, 82, 4)
+test0
+test2
+(1,)
+finish36
+(327,)
+(327, 82, 4)
+test0
+test2
+(1,)
+finish37
+(368,)
+(368, 82, 4)
+test0
+test2
+(1,)
+finish38
+(295,)
+(295, 82, 4)
+test0
+test2
+(1,)
+finish39
+(379,)
+(379, 82, 4)
+test0
+test2
+(1,)
+finish310
+(398,)
+(398, 82, 4)
+test0
+test2
+(1,)
+finish311
+(356,)
+(356, 82, 4)
+test0
+test2
+(1,)
+finish312
+(301,)
+(301, 82, 4)
+test0
+test2
+(1,)
+finish313
+(334,)
+(334, 82, 4)
+test0
+test2
+(1,)
+finish314
+(101,)
+(101, 82, 4)
+test0
+test2
+(1,)
+finish315
+(229,)
+(229, 82, 4)
+test0
+test2
+(1,)
+finish30
+(390,)
+(390, 82, 4)
+test0
+test2
+(1,)
+finish31
+(459,)
+(459, 82, 4)
+test0
+test2
+(1,)
+finish32
+(217,)
+(217, 82, 4)
+test0
+test2
+(1,)
+finish33
+(242,)
+(242, 82, 4)
+test0
+test2
+(1,)
+finish34
+(463,)
+(463, 82, 4)
+test0
+test2
+(1,)
+finish35
+(564,)
+(564, 82, 4)
+test0
+test2
+(1,)
+finish36
+(399,)
+(399, 82, 4)
+test0
+test2
+(1,)
+finish37
+(593,)
+(593, 82, 4)
+test0
+test2
+(1,)
+finish38
+(385,)
+(385, 82, 4)
+test0
+test2
+(1,)
+finish39
+(550,)
+(550, 82, 4)
+test0
+test2
+(1,)
+finish310
+(169,)
+(169, 82, 4)
+test0
+test2
+(1,)
+finish311
+(302,)
+(302, 82, 4)
+test0
+test2
+(1,)
+finish312
+(852,)
+(852, 82, 4)
+test0
+test2
+(1,)
+finish313
+(694,)
+(694, 82, 4)
+test0
+test2
+(1,)
+finish314
+(277,)
+(277, 82, 4)
+test0
+test2
+(1,)
+finish315
+(332,)
+(332, 82, 4)
+test0
+test2
+(1,)
+finish30
+(727,)
+(727, 82, 4)
+test0
+test2
+(1,)
+finish31
+(843,)
+(843, 82, 4)
+test0
+test2
+(1,)
+finish32
+(782,)
+(782, 82, 4)
+test0
+test2
+(1,)
+finish33
+(826,)
+(826, 82, 4)
+test0
+test2
+(1,)
+finish34
+(228,)
+(228, 82, 4)
+test0
+test2
+(1,)
+finish35
+(258,)
+(258, 82, 4)
+test0
+test2
+(1,)
+finish36
+(444,)
+(444, 82, 4)
+test0
+test2
+(1,)
+finish37
+(208,)
+(208, 82, 4)
+test0
+test2
+(1,)
+finish38
+(211,)
+(211, 82, 4)
+test0
+test2
+(1,)
+finish39
+(295,)
+(295, 82, 4)
+test0
+test2
+(1,)
+finish310
+(398,)
+(398, 82, 4)
+test0
+test2
+(1,)
+finish311
+(273,)
+(273, 82, 4)
+test0
+test2
+(1,)
+finish312
+(506,)
+(506, 82, 4)
+test0
+test2
+(1,)
+finish313
+(707,)
+(707, 82, 4)
+test0
+test2
+(1,)
+finish314
+(609,)
+(609, 82, 4)
+test0
+test2
+(1,)
+finish315
+(616,)
+(616, 82, 4)
+test0
+test2
+(1,)
+finish30
+(290,)
+(290, 82, 4)
+test0
+test2
+(1,)
+finish31
+(391,)
+(391, 82, 4)
+test0
+test2
+(1,)
+finish32
+(375,)
+(375, 82, 4)
+test0
+test2
+(1,)
+finish33
+(506,)
+(506, 82, 4)
+test0
+test2
+(1,)
+finish34
+(237,)
+(237, 82, 4)
+test0
+test2
+(1,)
+finish35
+(373,)
+(373, 82, 4)
+test0
+test2
+(1,)
+finish36
+(516,)
+(516, 82, 4)
+test0
+test2
+(1,)
+finish37
+(444,)
+(444, 82, 4)
+test0
+test2
+(1,)
+finish38
+(407,)
+(407, 82, 4)
+test0
+test2
+(1,)
+finish39
+(413,)
+(413, 82, 4)
+test0
+test2
+(1,)
+finish310
+(533,)
+(533, 82, 4)
+test0
+test2
+(1,)
+finish311
+(810,)
+(810, 82, 4)
+test0
+test2
+(1,)
+finish312
+(212,)
+(212, 82, 4)
+test0
+test2
+(1,)
+finish313
+(314,)
+(314, 82, 4)
+test0
+test2
+(1,)
+finish314
+(78,)
+(78, 82, 4)
+test0
+test2
+(1,)
+finish315
+(166,)
+(166, 82, 4)
+test0
+test2
+(1,)
+finish30
+(652,)
+(652, 82, 4)
+test0
+test2
+(1,)
+finish31
+(820,)
+(820, 82, 4)
+test0
+test2
+(1,)
+finish32
+(746,)
+(746, 82, 4)
+test0
+test2
+(1,)
+finish33
+(637,)
+(637, 82, 4)
+test0
+test2
+(1,)
+finish34
+(612,)
+(612, 82, 4)
+test0
+test2
+(1,)
+finish35
+(577,)
+(577, 82, 4)
+test0
+test2
+(1,)
+finish36
+(516,)
+(516, 82, 4)
+test0
+test2
+(1,)
+finish37
+(500,)
+(500, 82, 4)
+test0
+test2
+(1,)
+finish38
+(442,)
+(442, 82, 4)
+test0
+test2
+(1,)
+finish39
+(652,)
+(652, 82, 4)
+test0
+test2
+(1,)
+finish310
+(516,)
+(516, 82, 4)
+test0
+test2
+(1,)
+finish311
+(423,)
+(423, 82, 4)
+test0
+test2
+(1,)
+finish312
+(355,)
+(355, 82, 4)
+test0
+test2
+(1,)
+finish313
+(421,)
+(421, 82, 4)
+test0
+test2
+(1,)
+finish314
+(374,)
+(374, 82, 4)
+test0
+test2
+(1,)
+finish315
+(397,)
+(397, 82, 4)
+test0
+test2
+(1,)
+finish30
+(708,)
+(708, 82, 4)
+test0
+test2
+(1,)
+finish31
+(602,)
+(602, 82, 4)
+test0
+test2
+(1,)
+finish32
+(732,)
+(732, 82, 4)
+test0
+test2
+(1,)
+finish33
+(645,)
+(645, 82, 4)
+test0
+test2
+(1,)
+finish34
+(607,)
+(607, 82, 4)
+test0
+test2
+(1,)
+finish35
+(816,)
+(816, 82, 4)
+test0
+test2
+(1,)
+finish36
+(445,)
+(445, 82, 4)
+test0
+test2
+(1,)
+finish37
+(383,)
+(383, 82, 4)
+test0
+test2
+(1,)
+finish38
+(578,)
+(578, 82, 4)
+test0
+test2
+(1,)
+finish39
+(693,)
+(693, 82, 4)
+test0
+test2
+(1,)
+finish310
+(476,)
+(476, 82, 4)
+test0
+test2
+(1,)
+finish311
+(570,)
+(570, 82, 4)
+test0
+test2
+(1,)
+finish312
+(737,)
+(737, 82, 4)
+test0
+test2
+(1,)
+finish313
+(710,)
+(710, 82, 4)
+test0
+test2
+(1,)
+finish314
+(758,)
+(758, 82, 4)
+test0
+test2
+(1,)
+finish315
+(690,)
+(690, 82, 4)
+test0
+test2
+(1,)
