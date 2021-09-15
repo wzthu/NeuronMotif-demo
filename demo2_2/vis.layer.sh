@@ -2,5 +2,5 @@ layer=$1
 kernels=$2
 threads=$3
 deepsea=$4
-sh idx.sh  $kernels  | xargs -n 1 -P $threads  sh   vis.sh $layer $deepsea
+sh idx.sh  $kernels  | xargs -n 1 -P $threads  sh   vis.sh $layer $deepsea $kernels
 #python merge.py $layer
