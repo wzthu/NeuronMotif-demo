@@ -2,7 +2,12 @@ This repository shows how NeuronMotif works by applying NeuronMotif to two very 
 
 Visit [https://github.com/wzthu/NeuronMotif](https://github.com/wzthu/NeuronMotif) to learn how to install and use NeuronMotif.
 
-Run:
+How to run:
+
+```
+conda activate NeuronMotif
+```
+
 
 ```
 bash script.sh

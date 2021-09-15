@@ -6,35 +6,6 @@ os.environ["HDF5_USE_FILE_LOCKING"] = "FALSE"
 f = h5py.File(sys.argv[1],'r')
 
 
-html_txt0 = '''
-<html lang="en">
-    <body>
-        <h2>Nucleotides</h2>
-        <canvas id="logo_nt"></canvas>
-
-        <h2>Amino acids</h2>
-        <canvas id="logo_aa"></canvas>
-
-        <script src="js/jseqlogo.js"></script>
-        <script>
-            var options = {
-                "colors": jseqlogo.colors.nucleotides
-            };
-
-            var data = {
-                "A": [0.5, 1.0, 0.0, 0.1, 0.0, 0.0, 0.0],
-                "C": [0.8, 0.05, 0.2, 0.0, 0.5, 0.05, 0.0],
-                "G": [0.01, 0.0, 0.0, 0.7, 0.0, 0.3, 0.84],
-                "T": [0.2, 0.0, 0.45, 0.0, 0.3, 0.0, 0.2]
-            };
-
-            sequence_logo(document.getElementById("logo_nt"), 600, 200, data, options);
-
-
-        </script>
-    </body>
-</html>
-'''
 
 html_txt = '''
 <html lang="en">
@@ -61,7 +32,7 @@ Visit NeuronMotif website for full results: <a href="https://wzthu.github.io/Neu
 Please be patient to load all motif logos or patterns in the column of CN motifs ...
 <br/>
         %s
-        <script src="js/jseqlogo.js"></script>
+        <script src="https://wzthu.github.io/NeuronMotif/jseqlogo.js"></script>
         <script>
             var options = {
                 "colors": jseqlogo.colors.nucleotides
